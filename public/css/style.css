@@ -1,0 +1,29 @@
+.sectionfirst{
+    padding-top:80px;
+    display: flex;
+    height: 800px;
+}
+h1{
+    font-size:60px !important;
+}
+p{
+    font-size:30px
+}
+.divisionfirst{
+    justify-content: end;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.sousvisionfirst{
+    justify-content: start;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.sectionSecondo{
+    padding-top:80px;
+    display: flex;
+    height: 800px;
+}
+ul{
+    font-size:30px;
+}
