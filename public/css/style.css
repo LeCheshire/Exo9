@@ -5,10 +5,11 @@
 .sectionfirst{
     padding-top:50px;
     display: flex;
-    height: 600px;
+    height: 700px;
 }
 h1{
     font-size:50px !important;
+    padding-bottom: 80px;
 }
 p{
     font-size:20px;
@@ -26,7 +27,7 @@ p{
 .sectionSecondo{
     padding-top:50px;
     display: flex;
-    height: 600px;
+    height: 700px;
 }
 .divisionsecondo{
     justify-content: start;
@@ -42,5 +43,21 @@ ul{
     font-size:20px
 }
 .sectionThird{
-
+    padding-top:50px;
+    display: flex;
+    height: 600px;
+}
+.divisionthird{
+    justify-content: start;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.sousvisionthird{
+    justify-content: end;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.btnplus{
+    color: white;
+    background-color: rgb(150, 2, 150);
 }
