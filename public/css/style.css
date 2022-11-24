@@ -1,13 +1,17 @@
+.toutpage{
+    margin-left:100px;
+    margin-right:100px;
+}
 .sectionfirst{
-    padding-top:80px;
+    padding-top:50px;
     display: flex;
-    height: 800px;
+    height: 600px;
 }
 h1{
-    font-size:60px !important;
+    font-size:50px !important;
 }
 p{
-    font-size:30px
+    font-size:20px;
 }
 .divisionfirst{
     justify-content: end;
@@ -20,10 +24,23 @@ p{
     flex-grow: 1;
 }
 .sectionSecondo{
-    padding-top:80px;
+    padding-top:50px;
     display: flex;
-    height: 800px;
+    height: 600px;
+}
+.divisionsecondo{
+    justify-content: start;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.sousvisionsecondo{
+    justify-content: end;
+    flex-basis: 0;
+    flex-grow: 1;
 }
 ul{
-    font-size:30px;
+    font-size:20px
+}
+.sectionThird{
+
 }
