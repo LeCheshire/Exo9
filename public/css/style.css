@@ -61,3 +61,11 @@ ul{
     color: white;
     background-color: rgb(150, 2, 150);
 }
+.btnpos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:80px;
+    font-size: 20px;
+    border:none;
+}
